@@ -1,3 +1,6 @@
+#Paredes Márquez Carlos
+#Ejercicio_5
+#20 08 2021
 '''Abre una imagen a color'''
 
 import cv2
@@ -10,7 +13,7 @@ im= cv2.imread('Pug.jpeg')
 im1= cv2.rotate(im, cv2.ROTATE_90_COUNTERCLOCKWISE)
 im2= cv2.rotate(im1, cv2.ROTATE_90_COUNTERCLOCKWISE)
 
-'''Conviertela a escala de grises'''
+'''Conviértela a escala de grises'''
 
 R = im2[:,:,2]
 G = im2[:,:,1]
