@@ -13,7 +13,7 @@ im= cv2.imread('Pug.jpeg')
 im1= cv2.rotate(im, cv2.ROTATE_90_CLOCKWISE) #COUNTERCLOCKWISE para hacerlo al otro lado
 #cv2.ROTATE_180 vuelta de 180 grados
 
-'''Conviertela a escala de grises'''
+'''Conviértela a escala de grises'''
 
 R = im1[:,:,2]
 G = im1[:,:,1]
