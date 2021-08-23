@@ -18,13 +18,13 @@ B = im[:,:,0]
 ig = R*0.299 + G*0.587 + B*0.114
 ig= ig.astype(np.uint8)
 
-'''Calcula el negativo de la imagén'''
+'''Calcula el negativo de la imagen'''
 
 im_n = 225 - ig
 
 '''Compara ambas imagenes'''
 
-#cv2.imshow('image', im)
-cv2.imshow('image1', ig)
+cv2.imshow('image', im)
+#cv2.imshow('image1', ig) #imagen en escala de grises
 cv2.imshow('image2',im_n)
 cv2.waitKey(0)
