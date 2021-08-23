@@ -11,7 +11,7 @@ im = cv2.imread('Pug.jpeg')
 
 im_n = 225 - im
 
-"""Muestra las dos imagenes, original y resultado"""
+"""Muestra las dos imágenes, original y resultado"""
 
 cv2.imshow('image0', im)
 cv2.imshow('image1', im_n)
